@@ -13,7 +13,7 @@ class proxy_requests():
     def crawl_proxies(logging=False):
         """
         Comment: gets available proxies for use with python requests
-        Input: None
+        Input: optional: bool if logging needed
         Output: List of proxies
         Special: Nothing special
         """
